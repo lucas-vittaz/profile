@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+.avatar{
+  background-image: url(assets/img/avatars/lucas.jpg);
+}
+.card{
+  border: 1px rgb(57, 142, 251,0.2) solid;
+  box-shadow:  0px 0px 10px rgb(57, 142, 251,0.2);
+}
+.scale-on-hover{
+  transition: 0.7s !important;
+}
+#wagon{
+  animation: 3s infinite moving !important;
+}
+.portfolio-block form{
+  border-radius: 15px !important;
+}
+.btn-submit{
+  background-color: rgb(195, 23, 40);
+  color: white;
+}
+.btn-submit:hover{
+  background-color: rgb(225, 37, 56) !important;
+}
+@keyframes moving{
+  0%{
+    transform: translateX(100px);
+  }
+  50%{
+    transform: translateX(-200px);
+    transform : rotateY(180deg);
+  }
+  100%{
+    transform: translateX(100px);
+  }
+}
+.form-bg{
+  background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+}
+h3{
+  color: white
+}
+textarea{
+  width: 50%;
+  height: 150px;
+}
+.ion-social-facebook:hover{
+  color: rgb(57, 142, 251,0.8)!important;
+}
+.icon:hover{
+  color: rgb(57, 142, 251,0.8)!important;
+}
